@@ -1,0 +1,56 @@
+body{
+  background-image: white;
+  height:100vh;
+  overflow: hidden;
+}
+.container{
+  position: absolute;
+  top:50%;
+  left:45%;
+  transform: translate(-50%,-50%);
+  width:450px;
+  height:90vh;
+  z-index: 1;
+}
+.form{
+  background-color: rgba(213, 213, 213, 0.711);
+  width:100%;
+  height:50%;
+  top: 20%;
+  left: 20%;
+  border-radius: 2px;
+  overflow: hidden;
+  position: absolute;
+  
+}
+h1{
+  color:#000000;
+  margin-bottom:20px;
+  margin-left: 20px;
+}
+button{
+  margin-left: 90px;
+  border-radius: 2px;
+  width: 100px;
+  height: 30px;
+}
+.group .inputText{
+  margin-left: 84px;
+  width:50%;
+  padding: 0% 10%;
+  height:40px;
+  border:none;
+  outline: none;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+.group{
+  height:40px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.group label{
+  position:absolute;
+  top: 10px;
+  left: 3%;
+  
+}
